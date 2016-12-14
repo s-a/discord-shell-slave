@@ -1,6 +1,6 @@
 {
   "name": "discord-shell-slave",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A discord client which posts piped shell data",
   "main": "lib/index.js",
   "bin": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/s-a/pipe-discord-client#readme",
   "dependencies": {
-    "discordie": "^0.10.0", 
+    "discordie": "^0.10.0",
     "n-cli": "^1.2.9"
   }
 }
