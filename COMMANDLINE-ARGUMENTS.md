@@ -1,7 +1,7 @@
 # Commandlinearguments
-```help``` - Shows this help.
-```--connect <my-connection-name>``` Uses the connection configuration in ```.discord-shell-slave-rc```.
-```--config </path/to/my/.discord-shell-slave-rc>``` Optional. If you do not pass a ```--config``` parameter, discord-shell-slave will search in parent folders for ```.discord-shell-slave-rc```.
+```help``` - Shows this help.  
+```--connect <my-connection-name>``` Uses the connection configuration in ```.discord-shell-slave-rc```.  
+```--config </path/to/my/.discord-shell-slave-rc>``` Optional. If you do not pass a ```--config``` parameter, discord-shell-slave will search in parent folders for ```.discord-shell-slave-rc```.  
 
 ## .discord-shell-slave-rc example
 
