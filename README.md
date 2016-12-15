@@ -15,7 +15,7 @@
 *In fact any shell script can send a Discord chat message now. So you do not need any coder skills to use it. If you have coding skills [QWMI](https://github.com/s-a/qwmi) is a good example which supports the enhanced JSON structure.*
 
 **JSON structure?**  
-```dss``` will parse piped string data into a  JSON object if it is a valid JSON string. If not it will take the string and send a simple text message. If it is JSON ```dss``` expects the following structure.
+*```dss``` will parse piped string data into a  JSON object if it is a valid JSON string. If not it will take the string and send a simple text message. If it is JSON ```dss``` expects the following structure.*
 ```javascript
 {
   color : "0x3498db",
@@ -51,3 +51,7 @@ echo hello world | discord-shell-slave --connect my-connection-name --config /pa
 ```
 
 [for more details see  COMMANDLINE-ARGUMENTS.md](/COMMANDLINE-ARGUMENTS.md)
+
+
+**How is this software licensed?**
+*[MIT](/LICENSE)*
