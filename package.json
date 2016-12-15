@@ -4,6 +4,7 @@
   "description": "A discord client which posts piped shell data",
   "main": "lib/index.js",
   "bin": {
+    "dss": "lib/index.js",
     "discord-shell-slave": "lib/index.js"
   },
   "scripts": {
