@@ -9,7 +9,7 @@
 
 
 **discord-shell-slave... Isn' t it a little bit long?**  
-*Yes it is. There exists an alias called * ```dss```.
+*Yes it is. There exists an alias called ```dss```.*
 
 **I' d like to know more.**  
 *In fact any shell script can send a Discord chat message now. So you do not need any coder skills to use it. If you have coding skills [QWMI](https://github.com/s-a/qwmi) is a good example which supports the enhanced JSON structure.*
@@ -42,6 +42,10 @@ npm i -g discord-shell-slave
 ```
 
 **How to use it?**
+```bash
+echo hello world | discord-shell-slave --connect my-connection-name
+```
+*If you want to pass the the configuration file as parameter you can use ```--config``` with an absolute or relative path to the current working directory.*
 ```bash
 echo hello world | discord-shell-slave --connect my-connection-name --config /path/to/my/.discord-shell-slave-rc
 ```
