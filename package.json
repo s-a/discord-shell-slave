@@ -1,6 +1,6 @@
 {
   "name": "discord-shell-slave",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A discord client which posts piped shell data",
   "main": "lib/index.js",
   "bin": {
